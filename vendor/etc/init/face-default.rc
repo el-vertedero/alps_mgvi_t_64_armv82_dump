@@ -1,0 +1,7 @@
+service vendor.face-default /vendor/bin/hw/android.hardware.biometrics.face-service.example
+    class late_start
+    class hal
+    user system
+    group system
+
+

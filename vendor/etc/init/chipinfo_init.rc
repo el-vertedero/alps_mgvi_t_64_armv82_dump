@@ -1,0 +1,14 @@
+on early-init
+    exec_background - system system -- /vendor/bin/chipinfo
+
+on post-fs-data
+    wait_for_prop ro.vendor.soc.model_ready 1
+    setprop ro.soc.model ${ro.vendor.soc.model}
+    setprop ro.soc.manufacturer ${ro.vendor.soc.manufacturer}
+	
+	# DTS_AUDIO START
+    mkdir /data/vendor/audio/dts 0771 media audio
+
+    setprop ro.vendor.dts.licensepath "/vendor/etc/dts/"
+    setprop ro.vendor.dts.cfgpath "/vendor/etc/dts/"
+    # DTS_AUDIO END

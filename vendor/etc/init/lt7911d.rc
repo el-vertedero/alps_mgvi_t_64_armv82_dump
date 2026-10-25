@@ -1,0 +1,8 @@
+on boot
+on property:ro.bootmode=normal
+    start lt7911d_update
+
+service lt7911d_update /vendor/bin/lt7911d_update
+    class main
+    user root
+    oneshot

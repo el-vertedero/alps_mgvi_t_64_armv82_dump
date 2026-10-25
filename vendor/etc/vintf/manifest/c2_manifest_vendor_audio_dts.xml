@@ -1,0 +1,11 @@
+<!--
+    Input:
+        frameworks/av/media/codec2/dtsx_gaming_codec/service/c2_manifest_vendor_audio_dts.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="hidl">
+        <name>android.hardware.media.c2</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IComponentStore/default3</fqname>
+    </hal>
+</manifest>
