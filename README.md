@@ -1,0 +1,14 @@
+# sys_mssi_64_cn_armv82_wifi-user 16 BP2A.250605.031.A3 1756175889 release-keys
+- manufacturer: alps
+- platform: common
+- codename: mgvi_t_64_armv82
+- flavor: sys_mssi_64_cn_armv82_wifi-user
+- release: 16
+- id: BP2A.250605.031.A3
+- incremental: 1756175889
+- tags: release-keys
+- fingerprint: alps/hal_mgvi_t_64_armv82/mgvi_t_64_armv82:16/BP2A.250605.031.A3/1756175889:user/release-keys
+- is_ab: true
+- brand: alps
+- branch: sys_mssi_64_cn_armv82_wifi-user-16-BP2A.250605.031.A3-1756175889-release-keys
+- repo: alps_mgvi_t_64_armv82_dump
